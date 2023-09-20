@@ -1,0 +1,9 @@
+To run beat schedulued tasks
+python -m celery -A myproject beat --pool=solo -l info
+
+To run worker tasks
+python -m celery -A myproject worker --pool=solo -l info
+
+run redis
+redis-server / redis-cli
+

@@ -1,0 +1,16 @@
+# created by virtualenv automatically
+/env
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+mealApp/migrations/*
+Pipfile.lock
+.vscode
+.deployment
+
+/venv
